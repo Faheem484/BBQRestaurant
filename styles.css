@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=wrap');
+*{
+    font-family:'poppins', sans-serif;
+    color:#777;
+    line-height: 1.7;
+}
+
+:root{
+    --bg-color:#081b29;
+    --second-bg-color:#112e42;
+    --text-color:#fff;
+    --main-color:#0ef;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:600;
+    color:#222;
+}
+
+a{
+    color:#222;
+    text-decoration: none;
+    transition:all 0.4s;
+    font-weight: 600;
+}
+
+a:hover{
+    color:#f58d17;
+}
+
+.btn{
+    border-radius:4;
+    padding:14px 38px;
+}
+
+.btn-brand{
+    color:#fff;
+    font-weight:500;
+    border-color:#f58d17;
+    background-color:#f58d17;
+
+}
+
+.btn-brand:hover{
+    border-color:#d37810;
+    background-color:#d37810;
+    color:#fff;
+}
+
+.shadow-on-hover{
+    transition:all 0.3s;
+}
+
+.shadow-on-hover:hover{
+    box-shadow:0 10px 40px rgba(0,0,0,0.1);
+}
+
+.slide-1{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/img1.jpg);
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.slide-2{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/img2.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.slide-3{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/img3.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.slide-4{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/img4.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.slide-5{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images/img5.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* For About Section */
+#about .devider{
+    width:60px;
+    height:2px;
+    display:block;
+    
+    background-color: #F58d17;
+
+}
+
+/* For Menu Section*/
+.intro-text{
+    margin-bottom: 40px;
+    text-align:center;
+}
+
+.intro-text p{
+    max-width:500px;
+    margin:16px auto 0 auto;
+}
+
+/* For menu */
+#menu .nav-pills .nav-link{
+    background-color:white;
+    margin-left:8px;
+    margin-right: 8px;
+    color:#222;
+    border-radius:100px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.1);
+
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color:#f58d17;
+    color:white;
+}
+
+.menu-item .stars{
+    color:#f58d17;
+}
+
+#feature{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./images3/bg-feature.jpg);
+    width:100%;
+   
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+
+.feature{
+    border:2px solid rgba(255,255,255,0.2);
+}
+
+.feature .feature-icon{
+  
+    width:80px;
+    height:80px;
+    background-color: #eca656;
+    font-size: 28px;
+    display:inline-grid;
+    text-align:center;
+    align-items: center;
+}
+
+/* For Reservation */
+
+#contact .form-control:focus{
+    border-color:#d37810 ;
+}
+
+#contact input.form-control{
+    height:47px;
+}
+
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images3/footer.jpg');
+    background-size:cover;
+}
+
+footer .h1 p{
+    text-align:center;
+}
+
+footer .social-links a{
+    font-size:30px;
+    margin:2px;
+    text-decoration: #0ef;
+    background-color: #0ef;
+    border-radius:50%;
+    border:.2rem solid var(--main-color);     
+
+    transition:.5s ease;
+}
+
+footer .social-links a:hover{
+    background:var(--bg-color);
+}
